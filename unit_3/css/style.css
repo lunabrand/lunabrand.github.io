@@ -1,0 +1,26 @@
+body {
+	background-color: #A5CFCA;
+	font-family: Verdana, Arial, sans-serif;
+}
+
+h1 {
+	color:  #D12158;
+}
+
+p, ul, li {
+	color:  #48586E;
+}
+
+
+img {
+	width: 100%;
+
+}
+
+a{
+	color: #6541A6;
+}
+
+#slogan {
+	font-style: italic;
+}

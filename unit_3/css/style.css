@@ -4,6 +4,7 @@ body {
 }
 
 h1 {
+	background: #FFFFFF;
 	color:  #D12158;
 }
 
@@ -17,10 +18,13 @@ img {
 
 }
 
-a{
+a 	{
 	color: #6541A6;
-}
+	text-decoration: none;
+	font-weight: 18;
+	}
 
 #slogan {
 	font-style: italic;
+	text-align: right;
 }

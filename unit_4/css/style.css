@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Elsie&family=Lato&family=Open+Sans&display=swap');
+
+body {
+	background-color: #A5CFCA;
+	font-family: 'Lato', sans-serif;
+}
+
+h1 {
+	font-family: 'Elsie', cursive;
+	background: #FFFFFF;
+	color:  #D12158;
+}
+
+p, ul, li {
+	color:  #48586E;
+}
+
+
+img {
+	width: 100%;
+
+}
+
+a 	{
+	color: #6541A6;
+	text-decoration: none;
+	font-weight: 18;
+	}
+
+#slogan {
+	font-style: italic;
+	text-align: right;
+}

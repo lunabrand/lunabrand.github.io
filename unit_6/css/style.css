@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Elsie&family=Lato&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Raleway&family=Roboto&display=swap');
 
 *{
 	padding: 0;
@@ -12,11 +12,25 @@ body {
 }
 
 h1 {
-	font-family: 'Elsie', cursive;
-	background: #FFFFFF;
+	font-family: 'Great Vibes', cursive;
+	font-size: 30px;
+	/*background: #FFFFFF;*/
 	color:  #D12158;
 }
 
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	text-align: center;
+	color:  #D12158;
+}
+
+h3 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	color:  #D12158;
+	padding: 1em;
+}
 p, ul, li {
 	color:  #48586E;
 }
@@ -27,6 +41,17 @@ img {
 
 }
 
+hr{
+	border:none;
+	width:10em;
+	margin:1em auto;
+}
+
+h3 + hr{
+	background-color: #3C3C3C;
+	height:3px;
+	text-align: center;
+}
 a 	{
 	color: #6541A6;
 	text-decoration: none;
@@ -34,20 +59,22 @@ a 	{
 	}
 
 header{
-	background-color: #FFED74;
-	border: 1px black solid;
+	background-color: #FFFFFF;
+	border: 1px;
 	padding: 20px;
 }
 
 nav {
-	background-color: #E8C66A;
-	border: 1px black solid;
+	background-color: #FFFFFF;
+	border: 1px;
 	padding: 20px;
+	text-align: center;
+	float: right;
 }
 
 aside {
 	background-color: #FFC675;
-	border: 1px black solid;
+	border: 1px;
 	padding: 20px;
 }
 
@@ -57,8 +84,8 @@ article {
 	padding: 20px;
 }
 footer {
-	background-color: #FFE2B8;
-	border: 1px black solid;
+	background-color: #FFFFFF;
+	border: 1px;
 	padding: 20px;
 }
 
@@ -68,11 +95,70 @@ div / section {
 	padding: 20px;
 }
 
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.wrapper{
+	width:90%:
+	margin: auto;
+}
+.anime{
+	width:22%;
+	margin:1.5%;
+	float:left;
+	/*background-color: orange;*/
+}
+
+.anime img{
+	max-width: 350px;
+	display: block;
+	margin:auto;
+}
+
+.manga{
+	width:40%;
+	margin:1.5%;
+	float:left;
+	/*background-color: orange;*/
+}
+
+.manga img{
+	max-width: 300px;
+	display: block;
+	margin:auto;
+}
+
+
+#two_column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#left {
+	background-color: violet;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+
+#right {
+	background-color: pink;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 30%;
+}
+
 #hero {
 	display: block;
-	width:100%;
-	margin:0;
-	background: ;
 }
 
 #slogan {

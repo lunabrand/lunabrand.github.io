@@ -65,7 +65,7 @@ header{
 }
 
 nav {
-	background-color: #FFFFFF;
+	/*background-color: #FFFFFF;*/
 	border: 1px;
 	padding: 20px;
 	text-align: center;
@@ -112,7 +112,6 @@ div / section {
 	width:22%;
 	margin:1.5%;
 	float:left;
-	/*background-color: orange;*/
 }
 
 .anime img{

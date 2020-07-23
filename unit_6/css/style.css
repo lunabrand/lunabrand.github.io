@@ -188,6 +188,7 @@ div / section {
 	font-style: italic;
 	text-align: left;
 	float: left;
+	max-height: 100px;
 }
 
 #tiles {

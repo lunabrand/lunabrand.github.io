@@ -44,14 +44,14 @@ img {
 hr{
 	border:none;
 	width:10em;
-	margin:1em auto;
+	margin: .5em auto;
 }
 
 h3 + hr{
 	background-color: #3C3C3C;
 	height:3px;
-	text-align: center;
 }
+
 a 	{
 	color: #6541A6;
 	text-decoration: none;
@@ -61,7 +61,12 @@ a 	{
 header{
 	background-color: #FFFFFF;
 	border: 1px;
-	padding: 20px;
+	padding: .75em;
+
+}
+header img{
+	max-width: 75px;
+	align: right;
 }
 
 nav {
@@ -69,9 +74,16 @@ nav {
 	border: 1px;
 	padding: 20px;
 	text-align: center;
-	float: right;
+	float: center;
 }
 
+nav a{
+	display: inline-block;
+	padding: .5em;
+	text-align: left;
+}
+
+/*
 aside {
 	background-color: #FFC675;
 	border: 1px;
@@ -83,6 +95,8 @@ article {
 	border: 1px black solid;
 	padding: 20px;
 }
+*/
+
 footer {
 	background-color: #FFFFFF;
 	border: 1px;
@@ -92,7 +106,7 @@ footer {
 div / section {
 	background-color: #FFE2B8;
 	border: 1px black solid;
-	padding: 20px;
+	padding: .25em;
 }
 
 .clearfix:after {
@@ -105,13 +119,20 @@ div / section {
 }
 
 .wrapper{
-	width:90%:
+	width:90%;
 	margin: auto;
 }
+
+.about{
+	margin: 1.5em;
+	padding: 1.5em;
+}
+
 .anime{
-	width:22%;
-	margin:1.5%;
-	float:left;
+	width: 22%;
+	margin: 1.5%;
+	float: left;
+	text-align: center;
 }
 
 .anime img{
@@ -121,10 +142,12 @@ div / section {
 }
 
 .manga{
-	width:40%;
-	margin:1.5%;
-	float:left;
-	/*background-color: orange;*/
+	width: 20%;
+	margin: auto;
+	float: center;
+	text-align: center;
+	/*background-color: orange;
+	border: 1px black solid;*/
 }
 
 .manga img{
@@ -133,7 +156,7 @@ div / section {
 	margin:auto;
 }
 
-
+/*
 #two_column {
 	background-color: #FFB7CF;
 	border: 1px black solid;
@@ -155,20 +178,23 @@ div / section {
 	float: right;
 	width: 30%;
 }
-
+*/
 #hero {
 	display: block;
+	text-align: right;
 }
 
 #slogan {
 	font-style: italic;
-	text-align: right;
+	text-align: left;
+	float: left;
 }
 
 #tiles {
 	width: 50%;
 }
-
+/*
 #manga{
 	width: 50%
 }
+*/

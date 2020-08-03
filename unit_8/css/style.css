@@ -200,6 +200,7 @@ div / section {
 	width: 50%
 }
 */
+/*
 @media only screen and (min-width: 800px){
 	body {
 		font-size: 14px;
@@ -211,7 +212,7 @@ div / section {
 	h1, h2 {
 		text-align: center;	
 	}
-/*
+
 	nav a {
 		display: block;
 		text-align: center;

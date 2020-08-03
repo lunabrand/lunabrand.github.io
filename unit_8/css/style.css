@@ -9,30 +9,32 @@
 body {
 	background-color: #A5CFCA;
 	font-family: 'Lato', sans-serif;
+	font-size: 16px;
 }
 
 h1 {
 	font-family: 'Great Vibes', cursive;
-	font-size: 60px;
+	font-size: 3.75em;
 	/*background: #FFFFFF;*/
 	color:  #D12158;
 }
 
 h2 {
 	font-family: 'Roboto', sans-serif;
-	font-size: 24px;
+	font-size: 1.5em;
 	text-align: center;
 	color:  #D12158;
 }
 
 h3 {
 	font-family: 'Raleway', sans-serif;
-	font-size: 20px;
+	font-size: 1.25em;
 	color:  #D12158;
 	padding: 1em;
 }
 p, ul, li {
 	color:  #48586E;
+	font-size: 1em;
 }
 
 
@@ -198,3 +200,33 @@ div / section {
 	width: 50%
 }
 */
+@media only screen and (min-width: 800px){
+	body {
+		font-size: 14px;
+	}
+	#anime, #manga{
+		float: none;
+		width: auto;
+	}
+	h1, h2 {
+		text-align: center;	
+	}
+
+	nav a {
+		display: block;
+		text-align: center;
+		margin: 0;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	body { 
+		 font-size:13px;
+		 }
+	#wrapper {
+		width:95%;
+	}
+	#anime, #manga{
+		display: none;
+	}
+}

@@ -211,12 +211,13 @@ div / section {
 	h1, h2 {
 		text-align: center;	
 	}
-
+/*
 	nav a {
 		display: block;
 		text-align: center;
 		margin: 0;
 	}
+	*/
 }
 
 @media only screen and (max-width: 480px) {

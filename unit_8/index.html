@@ -3,6 +3,10 @@
 	<head>
 		<title>The Shrine - The web's best resource for all things Chibi Chibi and Princess Kakyuu</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<meta name="viewport" content="width=device-width, initialscale=1">
+		<!--[if lt IE 9]>
+            <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+        <![endif]-->
 	</head>
 
 	<body>
@@ -38,7 +42,7 @@
 				</ul>
 			</section>
 			<h2>Apperances in the Anime</h2>
-			<div class="wrapper clearfix">
+			<div class="clearfix" id="anime-wrap">
 				<section class="anime">
 					<a href="#"><img src="images/chibiinfo.jpg" alt="Chibi Chibi arrives." title="Chibi Chibi Info"></a>
 					<h3>Chibi Chibi Info</h3>
@@ -64,19 +68,24 @@
 					<p>See our full gallery of this princess.</p>
 				</section>
 			</div>
-			
-			<h2>Apperances in the Manga</h2>	
-			<div class="wrapper clearfix">
-				<section class="manga">	
-					<a href="#"><img src="images/chibi_Manga.jpg" alt="Chibi Chibi art and design layout for the manga." title="Chibi Chibi Manga"></a>
-					<a href="#">Chibi Chibi Manga Section</a>
-				</section>
-				<section class="manga">
-					<a href="#"><img src="images/Kakyuu_Manga.jpg" alt="Princess Kakyuu art and design layout for the manga." title="Princess Kakyuu Manga"></a>
-					<a href="#">Kakkyuu Manga Section</a>
-				</section>
-			</div>
 		</main>
+
+			<section class="clearfix" id="manga">
+				<h2>Apperances in the Manga</h2>	
+				<div class="manga">	
+					<a href="#"><img src="images/chibi_Manga.jpg" alt="Chibi Chibi art and design layout for the manga." title="Chibi Chibi Manga"></a>
+					<h3>Chibi Chibi Manga Section</h3>
+					<hr>
+					<a href="#">Chibi Chibi Manga Info</a> | <a href="#">Chibi Chibi Manga Photos</a>
+				</div>
+
+				<div class="manga">
+					<a href="#"><img src="images/Kakyuu_Manga.jpg" alt="Princess Kakyuu art and design layout for the manga." title="Princess Kakyuu Manga"></a>
+					<h3>Kakkyuu Manga Section</h3>
+					<hr>
+					<a href="#">Princess Kakyuu Manga Info</a> | <a href="#">Princess Kakyuu Manga Photos</a>
+				</div>
+			</section>
 
 		<footer>
 			<p>Contact Me: <a href="mailto:lunbrand@yahoo.com?subject=Contact Me">lunabrand@yahoo.com</a></p>

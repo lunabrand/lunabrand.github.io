@@ -54,11 +54,10 @@ h3 + hr{
 	height:3px;
 }
 
-a 	{
+a{
 	color: #6541A6;
 	text-decoration: none;
-	font-weight: 18;
-	}
+}
 
 header{
 	background-color: #FFFFFF;
@@ -73,8 +72,8 @@ header img{
 
 nav {
 	/*background-color: #FFFFFF;*/
-	border: 1px;
-	padding: 20px;
+	border: 1em;
+	padding: .75em;
 	text-align: center;
 	float: center;
 }
@@ -101,14 +100,13 @@ article {
 
 footer {
 	background-color: #FFFFFF;
-	border: 1px;
-	padding: 20px;
+	border: .25em;
+	padding: .75em;
 }
 
 div / section {
 	background-color: #FFE2B8;
 	border: 1px black solid;
-	padding: .25em;
 }
 
 .clearfix:after {
@@ -138,24 +136,23 @@ div / section {
 }
 
 .anime img{
-	max-width: 350px;
+	max-width: 100%;
 	display: block;
-	margin:auto;
+	margin: auto;
 }
 
 .manga{
-	width: 20%;
-	margin: auto;
-	float: center;
+	width: 47%;
+	margin: 1.5%;
+	display: block;
+	float: left;
 	text-align: center;
-	/*background-color: orange;
-	border: 1px black solid;*/
 }
 
 .manga img{
-	max-width: 300px;
+	max-width: 50%;
 	display: block;
-	margin:auto;
+	margin: auto;
 }
 
 /*
@@ -195,20 +192,28 @@ div / section {
 #tiles {
 	width: 50%;
 }
-/*
-#manga{
-	width: 50%
+
+#anime-wrap{
+	width:90%;
+	margin: auto;
 }
-*/
-/*
-@media only screen and (min-width: 800px){
+
+#manga{
+	background-color:#FFB6C1;
+	padding: 2em 10% 2em;
+	
+}
+
+
+@media only screen and (max-width: 800px){
 	body {
 		font-size: 14px;
 	}
-	#anime, #manga{
-		float: none;
-		width: auto;
+	
+	header {
+		padding:0 2%;
 	}
+
 	h1, h2 {
 		text-align: center;	
 	}
@@ -218,17 +223,31 @@ div / section {
 		text-align: center;
 		margin: 0;
 	}
-	*/
+
+	.about {
+		font-size: 1.4em;
+		line-height: 1.8em;
+	}
+
+	.manga {
+		width:100%;
+		float: none;
+		width: auto;
+	}
+
+	.anime {
+		width:100%;
+		float: none;
+		width: auto;
+	}
+	
 }
 
 @media only screen and (max-width: 480px) {
 	body { 
 		 font-size:13px;
 		 }
-	#wrapper {
+	.wrapper {
 		width:95%;
-	}
-	#anime, #manga{
-		display: none;
 	}
 }

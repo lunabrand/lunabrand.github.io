@@ -257,13 +257,13 @@ div / section {
 	nav:hover a {
 		display: block;	
 	}
-
+/*
 	#slogan {
 		font-size: 1em;
 		float: none;
 		padding: .25em;
 	}
-
+*/
 	.about {
 		font-size: 1.4em;
 		line-height: 1.8em;

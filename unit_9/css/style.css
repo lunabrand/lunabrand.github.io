@@ -35,6 +35,7 @@ h3 {
 p, ul, li {
 	color:  #48586E;
 	font-size: 1em;
+	margin: .5em auto;
 }
 
 
@@ -222,7 +223,7 @@ div / section {
 	body {
 		font-size: 20px;
 	}
-	
+
 	#slogan {
 		font-size: 2.75em;
 		float: none;

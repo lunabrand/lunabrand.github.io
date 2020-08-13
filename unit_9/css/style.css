@@ -217,6 +217,14 @@ div / section {
 	}
 }
 
+@media only screen and (max-width: 1100px){
+	#slogan {
+		font-size: 2em;
+		float: none;
+		padding: .15em;
+	}
+}
+
 @media only screen and (max-width: 800px){
 	body {
 		font-size: 14px;
@@ -257,13 +265,13 @@ div / section {
 	nav:hover a {
 		display: block;	
 	}
-
+/*
 	#slogan {
 		font-size: 2em;
 		float: none;
 		padding: .15em;
 	}
-
+*/
 	.about {
 		font-size: 1.4em;
 		line-height: 1.8em;

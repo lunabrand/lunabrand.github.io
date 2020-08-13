@@ -204,6 +204,18 @@ div / section {
 	
 }
 
+#mobile {
+	display: none;
+}
+
+@media only screen and (min-width: 1800px) {
+	body {
+		font-size: 24px;
+	}
+	#wrapper {
+		width: 1600px;
+	}
+}
 
 @media only screen and (max-width: 800px){
 	body {
@@ -211,8 +223,8 @@ div / section {
 	}
 	
 	span.shrine {
-	dispay: none;
-	float: none;
+		display: none;
+		float: none;
 	}
 	
 	header {
@@ -235,6 +247,15 @@ div / section {
 		display: block;
 		text-align: center;
 		margin: 0;
+		display: none;
+	}
+
+	#mobile {
+		display: block;
+	}
+
+	nav:hover a {
+		display: block;	
 	}
 
 	#slogan {

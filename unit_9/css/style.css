@@ -221,12 +221,12 @@ div / section {
 	body {
 		font-size: 14px;
 	}
-	
+	/*
 	span.shrine {
 		display: none;
 		float: none;
 	}
-	
+	*/
 	header {
 		padding:0 2%;
 	}
@@ -259,9 +259,9 @@ div / section {
 	}
 
 	#slogan {
-		/*font-size: 1em;*/
+		font-size: 1em;
 		float: none;
-		/*padding: .25em;*/
+		padding: .25em;
 	}
 
 	.about {

@@ -14,21 +14,20 @@ body {
 
 h1 {
 	font-family: 'Great Vibes', cursive;
-	font-size: 3.75em;
-	/*background: #FFFFFF;*/
+	font-size: 4em;
 	color:  #D12158;
 }
 
 h2 {
 	font-family: 'Roboto', sans-serif;
-	font-size: 1.5em;
+	font-size: 2em;
 	text-align: center;
 	color:  #D12158;
 }
 
 h3 {
 	font-family: 'Raleway', sans-serif;
-	font-size: 1.25em;
+	font-size: 1em;
 	color:  #D12158;
 	padding: 1em;
 }
@@ -156,29 +155,6 @@ div / section {
 	margin: auto;
 }
 
-/*
-#two_column {
-	background-color: #FFB7CF;
-	border: 1px black solid;
-	padding: 20px;
-}
-
-#left {
-	background-color: violet;
-	border: 1px black solid;
-	padding: 20px;
-	float: left;
-	width: 30%;
-}
-
-#right {
-	background-color: pink;
-	border: 1px black solid;
-	padding: 20px;
-	float: right;
-	width: 30%;
-}
-*/
 #hero {
 	display: block;
 	text-align: right;
@@ -235,12 +211,7 @@ div / section {
 	body {
 		font-size: 14px;
 	}
-	/*
-	span.shrine {
-		display: none;
-		float: none;
-	}
-	*/
+	
 	header {
 		padding:0 2%;
 	}
@@ -272,17 +243,15 @@ div / section {
 	nav:hover a {
 		display: block;	
 	}
-/*
-	#slogan {
-		font-size: 2em;
+
+	span.shrine {
+		font size: 2em;
 		float: none;
-		padding: .15em;
 	}
-*/
+
 	.about {
 		font-size: 1.4em;
 		line-height: 1.8em;
-		margin: none;
 	}
 
 	.manga {
@@ -290,8 +259,7 @@ div / section {
 		line-height: 1.8em;
 		width:100%;
 		float: none;
-		width: auto;
-		margin-bottom: 5em;
+		margin-bottom: 1em;
 	}
 
 	.anime {
@@ -299,23 +267,7 @@ div / section {
 		line-height: 1.8em;
 		width:100%;
 		float: none;
-		width: auto;
-		margin-bottom: 5em;
+		margin-bottom: 1em;
 	}
 	
 }
-/*
-@media only screen and (max-width: 480px) {
-	body { 
-		 font-size:13px;
-		 }
-	nav a:link{
-		display:block;
-		padding: 15px;
-		margin: 5px;
-	}
-	
-	.wrapper {
-		width:95%;
-	}
-}/*
